@@ -1,5 +1,5 @@
 
-# 📈 Sensex Price Prediction using LSTM (Deep Learning)
+# 📈 Stock Price Prediction
 
 Welcome to the **BSE Sensex Forecasting Web App** — a deep learning-powered tool built with **Streamlit** and **LSTM Neural Networks** to predict the **next day's closing price** of India's stock market index: **Sensex**.
 
