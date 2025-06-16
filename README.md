@@ -25,7 +25,7 @@ The app allows users to:
 - Suitable for capturing short-term patterns.
 
 ### 2. 🔸 Stacked LSTM with Dropout (Current Model)
-- Two LSTM layers: (100 units → 50 units) with Dropout.
+- Two LSTM layers: (128 units → 64 units) with Dropout.
 - Helps in reducing overfitting and learning deeper sequence patterns.
 - Architecture:
   ```python
@@ -41,7 +41,6 @@ The app allows users to:
 - **GRU-based models**: for faster training
 - **CNN-LSTM**: for capturing local and long-term dependencies
 - **Attention-based LSTM**: for interpretability
-- **Prophet** and **ARIMA** for hybrid benchmarking
 
 ---
 
@@ -99,7 +98,7 @@ streamlit run frontend.py
 | MAE    | ~731  |
 | Sensex Close | ~80,000 |
 
-**Relative Error < 1.5%**, which is very strong for financial time series.
+**Relative Error < 0.9%**, which is very strong for financial time series.
 
 ---
 
