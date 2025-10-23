@@ -1,11 +1,11 @@
 
-# 📈 Stock Price Prediction
+# Stock Price Prediction
 
 Welcome to the **BSE Sensex Forecasting Web App** — a deep learning-powered tool built with **Streamlit** and **LSTM Neural Networks** to predict the **next day's closing price** of India's stock market index: **Sensex**.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 Stock price prediction is a challenging problem due to the highly non-linear and dynamic nature of the financial markets. This project applies advanced **sequence modeling** with **LSTM (Long Short-Term Memory)** to capture the temporal dependencies in historical BSE Sensex data.
 
@@ -18,13 +18,13 @@ The app allows users to:
 
 ---
 
-## 🧠 Models Implemented
+## Models Implemented
 
-### 1. 🔹 Basic LSTM
+### 1. Basic LSTM
 - A simple one-layer LSTM with a Dense output layer.
 - Suitable for capturing short-term patterns.
 
-### 2. 🔸 Stacked LSTM with Dropout (Current Model)
+### 2. Stacked LSTM with Dropout (Current Model)
 - Two LSTM layers: (128 units → 64 units) with Dropout.
 - Helps in reducing overfitting and learning deeper sequence patterns.
 - Architecture:
@@ -37,14 +37,14 @@ The app allows users to:
   model.add(Dense(1))
   ```
 
-### 3. 🔁 Future Additions (Coming Soon)
+### 3. Future Additions (Coming Soon)
 - **GRU-based models**: for faster training
 - **CNN-LSTM**: for capturing local and long-term dependencies
 - **Attention-based LSTM**: for interpretability
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 | Component      | Tool/Library        |
 |----------------|---------------------|
@@ -57,15 +57,15 @@ The app allows users to:
 
 ---
 
-## 📦 Setup Instructions
+## Setup Instructions
 
-### 🐍 Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install streamlit tensorflow pandas numpy scikit-learn yfinance matplotlib
 ```
 
-### ▶️ Run the App
+### Run the App
 
 ```bash
 streamlit run frontend.py
@@ -73,7 +73,7 @@ streamlit run frontend.py
 
 ---
 
-## 📊 How It Works
+## How It Works
 
 1. **Data Preparation**
    - Downloaded using Yahoo Finance or uploaded manually
@@ -90,7 +90,7 @@ streamlit run frontend.py
 
 ---
 
-## 📈 Sample Output
+## Sample Output
 
 | Metric | Value |
 |--------|-------|
@@ -102,7 +102,7 @@ streamlit run frontend.py
 
 ---
 
-## 📌 Features To Add
+## Features To Add
 
 - 📁 CSV Upload and custom ticker inputs
 - ⏩ Multi-day forecasting (e.g., 7/30 days)
@@ -113,7 +113,7 @@ streamlit run frontend.py
 
 ---
 
-## 🧪 Evaluation Metrics
+## Evaluation Metrics
 
 - **RMSE (Root Mean Squared Error)** – Penalizes large errors
 - **MAE (Mean Absolute Error)** – Measures average prediction accuracy
@@ -121,21 +121,11 @@ streamlit run frontend.py
 
 ---
 
-## 🙌 Credits
+## Credits
 
 - Yahoo Finance Data API via `yfinance`
 - Deep learning powered by `TensorFlow` & `Keras`
 - Streamlit for rapid UI deployment
-
----
-
-## 📬 Connect
-
-Have suggestions or want to contribute?
-
-- 📧 Email: lgarg092@gmail.com
-- 🌐 LinkedIn: https://www.linkedin.com/in/lokesh-garg-58b11528b/
-- 💻 GitHub: https://github.com/Lokeshg012
 
 ---
 
